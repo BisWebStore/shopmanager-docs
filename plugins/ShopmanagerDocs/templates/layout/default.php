@@ -65,8 +65,20 @@ $this->Html->setTemplates([
         <?= $this->fetch('content') ?>
     </main>
 
-    <footer class="site px-8 py-4">
-
+    <footer class="site px-8 py-4 m-4">
+        <div class="w-full py-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                © 2023 BisWeb.de E-Commerce Solutions, All rights reserved.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="https://bisweb.de/impressum/" class="hover:underline">Impressum</a>
+                </li>
+                <li>
+                    <a href="https://bisweb.de/datenschutz/" class="ml-4 hover:underline">Datenschutz</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
