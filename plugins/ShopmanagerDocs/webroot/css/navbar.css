@@ -1,0 +1,13 @@
+/* Navbar */
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-nav-links a {
+    margin: 0 0.5rem;
+}
+.top-nav-title a,
+.top-nav-links a {
+    font-weight: bold;
+}

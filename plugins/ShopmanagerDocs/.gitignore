@@ -6,3 +6,5 @@
 /config/Migrations/schema-dump-default.lock
 /vendor/
 /.idea/
+/webroot/css/dist/*
+!/webroot/css/dist/.gitkeep

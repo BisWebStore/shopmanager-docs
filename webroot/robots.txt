@@ -1,0 +1,59 @@
+# Block node-fetch/1.0 (+https://github.com/bitinn/node-fetch)
+User-agent: node-fetch
+Disallow: /
+
+# Block Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)
+User-agent: MJ12bot
+Disallow: /
+
+# Block Mozilla/5.0 (compatible; YaK/1.0; http://linkfluence.com/; bot@linkfluence.com)
+User-agent: YaK
+Disallow: /
+
+# Block Mozilla/5.0 (compatible; MixrankBot; crawler@mixrank.com)
+User-agent: MixrankBot
+Disallow: /
+
+# Block Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)
+User-agent: PetalBot
+Disallow: /
+
+# Block Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36; 360Spide
+User-agent: 360Spider
+Disallow: /
+
+# Block Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)
+User-agent: Applebot
+Disallow: /
+
+# Block Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+User-agent: YandexBot
+Disallow: /
+
+# Block ltx71 - (http://ltx71.com/)
+User-agent: ltx71 - (http://ltx71.com/)
+Disallow: /
+
+# Block SEOlizer/1.1 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13 (+https://www.seolizer.de/bot.html)
+User-agent: SEOlizer
+Disallow: /
+
+# Block Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)
+User-agent: adsbot
+Disallow: /
+
+# Block Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+User-agent: Mail.RU_Bot
+Disallow: /
+
+# Block Baiduspider
+User-agent: Baiduspider
+Disallow: /
+
+# Block Baiduspider-render
+User-agent: Baiduspider-render
+Disallow: /
+
+# GPTBot
+User-agent: GPTBot
+Disallow: /

@@ -1,0 +1,12 @@
+@import "./fonts.css";
+@import "tailwindcss/base";
+@import "./navbar.css";
+@import "./colors.css";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.site {
+    max-width: 112rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
