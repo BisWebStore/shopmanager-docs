@@ -229,3 +229,6 @@ ServerRequest::addDetector('tablet', function ($request) {
 // and https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax
 //\Cake\I18n\FrozenDate::setToStringFormat('dd.MM.yyyy');
 //\Cake\I18n\FrozenTime::setToStringFormat('dd.MM.yyyy HH:mm');
+
+// Allow e.g. http://foo.bar.dev or http://my-shop.local domains locally
+Configure::write('DebugKit.safeTld', ['site']);
