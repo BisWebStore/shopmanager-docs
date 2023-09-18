@@ -36,7 +36,7 @@ $this->Html->setTemplates([
     <?= $this->fetch('script') ?>
 </head>
 <body>
-    <nav class="site top-nav">
+    <nav class="site top-nav p-8">
         <div class="top-nav-title">
             <a href="<?= $this->Url->build('/') ?>" class="" title="&Uuml;bersicht Dokumentation Shopmanager Plugin">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[20px] h-[20px] inline sm:hidden">
@@ -60,12 +60,12 @@ $this->Html->setTemplates([
         </div>
     </nav>
 
-    <main class="site">
+    <main class="site px-8 py-4">
         <?= $this->Flash->render() ?>
         <?= $this->fetch('content') ?>
     </main>
 
-    <footer class="site">
+    <footer class="site px-8 py-4">
 
     </footer>
 </body>
