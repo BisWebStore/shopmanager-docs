@@ -49,4 +49,9 @@ class AppController extends Controller
          */
         //$this->loadComponent('FormProtection');
     }
+
+    public function beforeRender(\Cake\Event\EventInterface $event)
+    {
+        $this->viewBuilder()->setTheme('ShopmanagerDocs');
+    }
 }
