@@ -39,7 +39,7 @@ $this->Html->setTemplates([
     <a href="https://bisweb.de" class="m-0" title="BisWeb E-Commerce L&ouml;sungen">
         <img src="/img/logo.svg" height="64" width="64" alt="BisWeb E-Commerce L&ouml;sungen Logo" class="mx-auto m-4">
     </a>
-    <nav class="site top-nav px-8 pb-8">
+    <nav class="site top-nav px-8 pb-8 flex flex-col">
         <div class="top-nav-title">
             <a href="<?= $this->Url->build('/') ?>" class="" title="&Uuml;bersicht Dokumentation Shopmanager Plugin">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[20px] h-[20px] inline sm:hidden">
@@ -49,7 +49,7 @@ $this->Html->setTemplates([
                 <span class="leading-normal font-heading">Shopmanager Plugin</span>
             </a>
         </div>
-        <div class="top-nav-links">
+        <div class="top-nav-links mt-3">
             <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/" title="CakePHP Framework Kochbuch">
                 <?= $this->Html->image('/shopmanager_docs/img/cake.png', ['alt' => 'CakePHP Icon', 'title' => '', 'class' => 'p-[2px] cake-bg-red inline mr-1 sm:hidden', 'height' => '20', 'width' => '20']) ?>
                 <span class="cakered hidden sm:inline">Cake</span><span class="cakegray hidden sm:inline">PHP</span>
