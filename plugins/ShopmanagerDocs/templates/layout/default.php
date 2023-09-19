@@ -36,7 +36,10 @@ $this->Html->setTemplates([
     <?= $this->fetch('script') ?>
 </head>
 <body>
-    <nav class="site top-nav p-8">
+    <a href="https://bisweb.de" class="m-0" title="BisWeb E-Commerce L&ouml;sungen">
+        <img src="/img/logo.svg" height="64" width="64" alt="BisWeb E-Commerce L&ouml;sungen Logo" class="mx-auto m-4">
+    </a>
+    <nav class="site top-nav px-8 pb-8">
         <div class="top-nav-title">
             <a href="<?= $this->Url->build('/') ?>" class="" title="&Uuml;bersicht Dokumentation Shopmanager Plugin">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[20px] h-[20px] inline sm:hidden">
