@@ -28,6 +28,7 @@
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+    <?= $this->element('pirsch') ?>
     <?= $this->element('userlike') ?>
 </head>
 <body>
