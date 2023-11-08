@@ -34,6 +34,8 @@ $this->Html->setTemplates([
 
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+    <?= $this->element('pirsch') ?>
+    <?= $this->element('userlike') ?>
 </head>
 <body>
     <a href="https://bisweb.de" class="m-0" title="BisWeb E-Commerce L&ouml;sungen">
