@@ -1,1 +1,0 @@
-<script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/eb5114d2869f429b94bfc9de840736fea7c54c5747af4b1ab32b4a1a57292bd4.js"></script>
