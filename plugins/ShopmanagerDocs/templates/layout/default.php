@@ -1,6 +1,6 @@
 <?php
 
-use Cake\I18n\FrozenTime;
+use Cake\I18n\DateTime;
 
 // Load specific templates.
 $this->Html->setTemplates([
@@ -74,7 +74,7 @@ $this->Html->setTemplates([
     <footer class="site px-8 py-4 m-4">
         <div class="w-full py-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                © 2023-<?= FrozenTime::now()->year ?> BisWeb.de E-Commerce Solutions, All rights reserved.
+                © 2023-<?= DateTime::now()->year ?> BisWeb.de E-Commerce Solutions, All rights reserved.
             </span>
             <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                 <li>
