@@ -111,7 +111,7 @@
 
             <p class="mb-3">
                 Eine &Uuml;bersicht der verf&uuml;gbaren Pakete findet man in meinem
-                <a href="https://bisweb.de/shop/" class="hover:underline text-blue-400 underline-offset-4">Shop</a>.
+                <a href="https://bisweb.de/shop/p/shopmanager-plugin-pakete/" class="hover:underline text-blue-400 underline-offset-4" title="Shopmanager Plugin Pakete">Shop</a>.
             </p>
 
             <p class="mb-3">
